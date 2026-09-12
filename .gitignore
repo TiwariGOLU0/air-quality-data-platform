@@ -1,0 +1,21 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Environment Variables & Credentials
+resources/dev/credentials.env
+resources/prod/credentials.env
+*.env
+*.pem
+*.json
+
+# Airflow local logs & data
+airflow/logs/
+airflow/airflow.db
+
+# Power BI local cache
+*.bak
